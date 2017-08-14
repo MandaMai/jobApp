@@ -1,3 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Reem+Kufi');
 /*font-family: 'Josefin Sans', sans-serif;
 font-family: 'Reem Kufi', sans-serif;*/
+#line1 {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#line2 {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#line3 {
+  display: flex;
+  flex-flow: row;
+  width:100%;
+  justify-content: space-between;
+}
