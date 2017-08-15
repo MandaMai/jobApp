@@ -6,32 +6,33 @@
     <title>Job Application</title>
   </head>
   <body>
+    <h1>Job Application</h1>
+    <h2>Please fill the form out completely before pushing the submit button at the bottom of the page.</h2>
+    <h2>If you have any questions, please e-mail the hiring manager <a href="mailto:amanda.maifeld@libertymutual.com">through this link</a></h2>
     <div id="application">
 
       <div id="line1">
-        <div class="name">
-          <h2 class="label">Name</h2>
+        <div id="usrName" class="section">
+          <h3 class="label">Name</h3>
           <input type="text" name="fullName" placeholder="What is your full name?" class="usrInput">
         </div>
-        <div id="company">
-          <h2 class="label">Company</h2>
+        <div id="company" class="section">
+          <h3 class="label">Company</h3>
           <input type="text" name="companyName" placeholder="Where do you currently work?" class="usrInput">
         </div>
       </div>
 
       <div id="line2">
-        <div id="phone">
-          <h2 class="label">Phone Number</h2>
+        <div id="phone" class="section">
+          <h3 class="label">Phone Number</h3>
           <input type="text" name="phoneNumber" placeholder="What is the best # to reach you?" class="usrInput">
         </div>
-        <div id="email">
-          <h2 class="label">Email</h2>
-          <p class="sub">What is your e-mail address?</p>
+        <div id="email" class="section">
+          <h3 class="label">Email</h3>
           <input type="text" name="emailAddr" placeholder="What is your e-mail address?" class="usrInput">
         </div>
-        <div id="availability">
-          <h2 class="label">Availability</h2>
-          <p class="sub">5-15 hours per week</p>
+        <div id="availability" class="section">
+          <h3 class="label">Availability</h3>
           <select>
             <option value="5" class="usrInput">5</option>
             <option value="6" class="usrInput">6</option>
@@ -49,24 +50,24 @@
       </div>
 
       <div id="line3">
-        <div id="skills">
-          <h2 class="label">Skills</h2>
-          <p class="sub">List a few of your primary skills</p>
+        <div id="skills" class="section">
+          <h3 class="label">Skills</h3>
           <input type="text" name="skillsText" placeholder="List a few of your primary skills" class="usrInput">
         </div>
-        <div id="experience">
-          <h2 class="label">Yrs Experience</h2>
+        <div id="experience" class="section">
+          <h3 class="label">Yrs Experience</h3>
           <input type="text" name="expYears" placeholder="How many years of experience?" class="usrInput">
         </div>
-        <div id="color">
-          <h2 class="label">Favorite Color</h2>
+        <div id="color" class="section">
+          <h3 class="label">Favorite Color</h3>
           <input type="text" name="favColor" placeholder="What's your favorite color, above all others?" class="usrInput">
         </div>
-        <div id="language">
-          <h2 class="label">Programming Language of Choice</h2>
+        <div id="language" class="section">
+          <h3 class="label">Programming Language of Choice</h3>
           <input type="text" name="progLang" placeholder="I know. Tough question." class="usrInput">
         </div>
       </div>
     </div>
+    <button type="button" name="button">Submit Application</button>
   </body>
 </html>
